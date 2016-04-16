@@ -1,0 +1,32 @@
+.simple-event-calendar .calendar-month {
+  text-align: center;
+  padding: 10px 0; }
+  .simple-event-calendar .calendar-month .next, .simple-event-calendar .calendar-month .prev {
+    display: block;
+    vertical-align: middle;
+    text-decoration: none;
+    padding: 0 10px; }
+  .simple-event-calendar .calendar-month .next {
+    float: right; }
+  .simple-event-calendar .calendar-month .prev {
+    float: left; }
+.simple-event-calendar table {
+  width: 100%;
+  border-collapse: collapse;
+  box-sizing: border-box; }
+  .simple-event-calendar table th, .simple-event-calendar table td {
+    box-sizing: border-box;
+    text-align: center; }
+  .simple-event-calendar table td .date {
+    box-sizing: border-box;
+    display: block;
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    line-height: 30px;
+    margin: 0 auto;
+    padding: 5px; }
+  .simple-event-calendar table .today .date {
+    background-color: #e1e1e1; }
+
+/*# sourceMappingURL=simple-event-calendar.css.map */
